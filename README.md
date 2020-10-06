@@ -2,6 +2,7 @@
 
 
 
+<<<<<<< HEAD
 ## Welcome Geeks,
 <img src="/public/public/media/readme/home.PNG" alt="License">
 
@@ -21,3 +22,10 @@
 
 ## SHOW
 <img src="/public/public/media/readme/details.PNG" alt="License">
+=======
+
+## License
+
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+# product-crud-apps-for-beginners
+>>>>>>> a09cc050b06ebf5b6c975ee4d4eca8fc87b68ff6
