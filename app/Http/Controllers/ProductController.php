@@ -9,7 +9,7 @@ class ProductController extends Controller
     public function index()
     {
         $title = 'Index';
-        $products = Product::paginate(3);
+        $products = Product::latest()->paginate(3);
         return view('product.index')->with(compact('title', 'products'));
     }
     public function create()

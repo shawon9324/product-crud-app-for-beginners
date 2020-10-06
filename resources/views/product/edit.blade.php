@@ -35,6 +35,7 @@
                                     <img src="{{ url($product->logo) }}" height="80px" width="80px" alt="">
                                     <input type="hidden" name="old_logo" value="{{ $product->logo }}">
                                 @else
+                                    <input type="hidden" name="old_logo" value="{{ $product->logo }}">
                                     <img src="https://us.123rf.com/450wm/pavelstasevich/pavelstasevich1811/pavelstasevich181101065/112815953-stock-vector-no-image-available-icon-flat-vector.jpg?ver=6"
                                         height="80px" width="80px" alt="">
                                 @endif

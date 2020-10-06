@@ -15,7 +15,7 @@
                             <div class="card mb-4 shadow-sm">
                                 @if (isset($productDetails['logo']) && !empty($productDetails['logo']))
                                     <img class="bd-placeholder-img card-img-top" src="{{ url($productDetails->logo) }}"
-                                        width="100%" height="225">
+                                        width="100%" height="350">
                                 @else
                                     <img class="bd-placeholder-img card-img-top"
                                         src="https://us.123rf.com/450wm/pavelstasevich/pavelstasevich1811/pavelstasevich181101065/112815953-stock-vector-no-image-available-icon-flat-vector.jpg?ver=6"
